@@ -1,0 +1,77 @@
+#top_nav{
+    background-color: #daac00 !important;
+    padding:0 10%;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:#daac00
+    font-size: 20%;
+    padding-left:25px;
+    
+}
+#searchbox {
+    background-color:#fcc302;
+    color:white;
+    border-radius: 0;
+    border: 0px;
+
+    box-sizing: 5px 10px 11px 0px #000021;
+}
+#
+#search_btn{
+   
+    z-index:99;
+    background-color: #00bec9;
+    color:white;
+    border:0px;
+    border-radius: 0;
+}
+#banner{
+    padding-bottom:20px;
+    
+}
+#banner_text  h1 {
+    font-size:70px;
+    margin-top:100px;
+
+}
+#animation{
+    position:relative;
+animation-name: animation;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+#animation{
+    padding:25%
+}
+
+  #dog {  
+position: relative;
+  animation-name: dog;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dog{
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%{ left:200px; top:0px;}
+  100% { left:0px; top:0px;}
+}   
+#bones{
+    position: relative;
+    animation-name: bones;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bones{
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  
+}
+#counter { 
+    background-image: url(../dog3.jpg);
+    opacity: 0.5;
+}
